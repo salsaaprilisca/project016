@@ -14,9 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/portofolio', function () {
-    return view('profile');
-}); 
-
-Route::get('/identitas','ProfileController@index');
