@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('product','ProductController@index')->name('product.index');
 Route::get('product/add','ProductController@add')->name('product.add');
 Route::post('product/save', 'ProductController@save')->name('product.save');
+
+//route untuk category
+Route::get('category','CategoryController@index')->name('category.index');
+Route::get('category/add','CategoryController@add')->name('category.add');
+Route::post('category/save', 'CategoryController@save')->name('category.save');
